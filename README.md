@@ -20,4 +20,3 @@ This is a sample Spring Boot microservice that stores chat sessions and messages
 
 ## Notes
 - Use `x-api-key` header for all requests (except health & swagger).
-- This project uses a simple in-memory rate limiter for demo. Replace with Redis-backed limiter in prod.
