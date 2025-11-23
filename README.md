@@ -3,10 +3,9 @@
 This is a sample Spring Boot microservice that stores chat sessions and messages for a RAG-based chatbot.
 
 ## Quick start (Docker)
-1. Copy `.env.example` to `.env` and set `API_KEY`.
-2. Build jar: `mvn clean package -DskipTests`
-3. `docker compose up --build`
-4. API: `http://localhost:8080/api/v1`
+1. Build jar: `mvn clean package -DskipTests`
+2. `docker compose up --build`
+3. API: `http://localhost:8080/api/v1`
    - Swagger: `http://localhost:8080/swagger-ui/index.html`
    - Adminer: `http://localhost:8081`
 
